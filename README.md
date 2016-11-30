@@ -21,6 +21,9 @@ Not implemented:
 
 ## Advanced features
 
+- _How do you make sure that there are no duplicates in the file?_
+    Input data has `id` column, so we may skip duplicates by this column using `Dataset.dropDuplicates(columnName)`. 
+
 - _We are interested in using full multi core CPU power_. 
     Spark's configurated to use all available CPU cores (`local[*]`).
 
